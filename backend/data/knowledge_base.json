@@ -1,0 +1,770 @@
+[
+  {
+    "id": "faq_001",
+    "type": "faq",
+    "title": "Visiting Hours Weekdays",
+    "text": "General visiting hours are Monday to Friday from 10:00 AM to 7:00 PM. ICU visitation is restricted to approved family windows."
+  },
+  {
+    "id": "faq_002",
+    "type": "faq",
+    "title": "Visiting Hours Weekends",
+    "text": "Weekend visiting hours are from 10:00 AM to 6:00 PM. Visitor passes are required at reception."
+  },
+  {
+    "id": "faq_003",
+    "type": "faq",
+    "title": "ICU Visitor Policy",
+    "text": "Only one visitor at a time is allowed in ICU during designated slots. Children below 12 are not permitted in ICU areas."
+  },
+  {
+    "id": "faq_004",
+    "type": "faq",
+    "title": "Billing Payment Methods",
+    "text": "Hospital billing accepts credit cards, debit cards, UPI, net banking, and cash payments at billing counters."
+  },
+  {
+    "id": "faq_005",
+    "type": "faq",
+    "title": "Insurance Cashless Eligibility",
+    "text": "Cashless insurance is available only for empaneled insurers after pre-authorization approval and valid policy verification."
+  },
+  {
+    "id": "faq_006",
+    "type": "faq",
+    "title": "Refund Timeline",
+    "text": "Approved refunds are processed within 7 to 10 business days to the original payment method."
+  },
+  {
+    "id": "faq_007",
+    "type": "faq",
+    "title": "Appointment Reschedule Policy",
+    "text": "Appointments can be rescheduled up to 4 hours before slot time through support or patient portal."
+  },
+  {
+    "id": "faq_008",
+    "type": "faq",
+    "title": "Appointment Cancellation Policy",
+    "text": "Appointments canceled at least 4 hours in advance are eligible for full consultation fee reversal as per policy."
+  },
+  {
+    "id": "faq_009",
+    "type": "faq",
+    "title": "Lab Report Availability",
+    "text": "Most routine lab reports are available within 24 hours and can be downloaded from the patient portal."
+  },
+  {
+    "id": "faq_010",
+    "type": "faq",
+    "title": "Emergency Contact",
+    "text": "For emergencies like severe bleeding, chest pain, or breathing difficulty, contact emergency desk immediately or call local emergency services."
+  },
+  {
+    "id": "faq_011",
+    "type": "faq",
+    "title": "Pharmacy Timings",
+    "text": "In-house pharmacy is open 24x7 for admitted patients and emergency prescriptions."
+  },
+  {
+    "id": "faq_012",
+    "type": "faq",
+    "title": "Cafeteria Timings",
+    "text": "Cafeteria is open from 7:00 AM to 10:00 PM daily. ICU waiting lounge has separate vending access."
+  },
+  {
+    "id": "faq_013",
+    "type": "faq",
+    "title": "Parking Information",
+    "text": "Paid visitor parking is available in basement levels B1 and B2, subject to slot availability."
+  },
+  {
+    "id": "faq_014",
+    "type": "faq",
+    "title": "Discharge Billing Process",
+    "text": "Discharge is initiated after physician clearance and final bill settlement. TPA clearance may increase processing time."
+  },
+  {
+    "id": "faq_015",
+    "type": "faq",
+    "title": "OPD Registration Requirement",
+    "text": "First-time OPD patients must carry a valid photo ID for registration and UHID creation."
+  },
+  {
+    "id": "faq_016",
+    "type": "faq",
+    "title": "Teleconsultation Availability",
+    "text": "Teleconsultation is available for select departments and follow-up visits based on doctor availability."
+  },
+  {
+    "id": "faq_017",
+    "type": "faq",
+    "title": "Medical Record Request",
+    "text": "Medical records can be requested through records desk or portal, usually shared within 3 working days."
+  },
+  {
+    "id": "faq_018",
+    "type": "faq",
+    "title": "Insurance Documents Required",
+    "text": "Cashless insurance requests generally require policy card, photo ID, doctor note, and signed pre-authorization form."
+  },
+  {
+    "id": "faq_019",
+    "type": "faq",
+    "title": "No-Show Appointment Rule",
+    "text": "No-show appointments may require rebooking and can be subject to consultation fee policy."
+  },
+  {
+    "id": "faq_020",
+    "type": "faq",
+    "title": "Blood Test Fasting Rule",
+    "text": "For fasting glucose or lipid tests, 8 to 12 hours fasting is typically required unless instructed otherwise by the doctor."
+  },
+  {
+    "id": "faq_021",
+    "type": "faq",
+    "title": "Billing Helpdesk Hours",
+    "text": "Billing support desk is available from 8:00 AM to 8:00 PM on all days for payment and invoice help."
+  },
+  {
+    "id": "faq_022",
+    "type": "faq",
+    "title": "Report Correction Process",
+    "text": "If report demographics are incorrect, contact lab support with UHID and sample date for correction request."
+  },
+  {
+    "id": "faq_023",
+    "type": "faq",
+    "title": "International Card Payments",
+    "text": "International card acceptance depends on bank authorization and card network support at point of payment."
+  },
+  {
+    "id": "faq_024",
+    "type": "faq",
+    "title": "Second Opinion Process",
+    "text": "Patients can request a second opinion appointment by sharing prior reports and selecting specialist department."
+  },
+  {
+    "id": "ticket_001",
+    "type": "ticket",
+    "title": "Payment Failed UPI Timeout",
+    "text": "Ticket resolved by verifying transaction ID and confirming bank-side timeout. Patient advised to wait 30 minutes before retry."
+  },
+  {
+    "id": "ticket_002",
+    "type": "ticket",
+    "title": "Payment Debited Bill Unpaid",
+    "text": "Billing team reconciled delayed payment callback and manually marked invoice as paid after gateway settlement confirmation."
+  },
+  {
+    "id": "ticket_003",
+    "type": "ticket",
+    "title": "Duplicate Payment Refund",
+    "text": "Patient paid twice for same OPD invoice. One payment retained, duplicate transaction moved to refund queue."
+  },
+  {
+    "id": "ticket_004",
+    "type": "ticket",
+    "title": "Card Declined at Counter",
+    "text": "Issue resolved by offering alternate payment mode and advising customer to contact issuing bank for decline reason."
+  },
+  {
+    "id": "ticket_005",
+    "type": "ticket",
+    "title": "Insurance Preauth Pending",
+    "text": "Support requested additional documents and informed patient that cashless approval remains pending insurer response."
+  },
+  {
+    "id": "ticket_006",
+    "type": "ticket",
+    "title": "Partial Insurance Denial",
+    "text": "Patient informed that non-payable consumables and exclusions are billed separately as per policy terms."
+  },
+  {
+    "id": "ticket_007",
+    "type": "ticket",
+    "title": "Invoice Name Correction",
+    "text": "Billing updated invoice name after ID verification and reissued corrected digital invoice within same day."
+  },
+  {
+    "id": "ticket_008",
+    "type": "ticket",
+    "title": "Refund Delay Escalation",
+    "text": "Finance confirmed refund in process and shared expected settlement date within 10 business days."
+  },
+  {
+    "id": "ticket_009",
+    "type": "ticket",
+    "title": "POS Machine Network Error",
+    "text": "Temporary network issue at billing counter. Patient redirected to online payment link and receipt generated instantly."
+  },
+  {
+    "id": "ticket_010",
+    "type": "ticket",
+    "title": "EMI Request for Surgery Bill",
+    "text": "Patient guided to approved financing partner desk; EMI eligibility subject to bank and partner verification."
+  },
+  {
+    "id": "ticket_011",
+    "type": "ticket",
+    "title": "Appointment Slot Not Visible",
+    "text": "Portal cache issue resolved by refreshing doctor roster. New slots reflected after system sync."
+  },
+  {
+    "id": "ticket_012",
+    "type": "ticket",
+    "title": "Appointment Booked Wrong Department",
+    "text": "Support canceled incorrect booking and rebooked in requested specialty with same-day nearest slot."
+  },
+  {
+    "id": "ticket_013",
+    "type": "ticket",
+    "title": "Doctor On Leave Reschedule",
+    "text": "Auto-reschedule offered with options in next 48 hours and patient selected alternate consultant."
+  },
+  {
+    "id": "ticket_014",
+    "type": "ticket",
+    "title": "Follow-Up Booking Discount Missing",
+    "text": "Follow-up concession applied manually after validating prior visit date within allowed follow-up window."
+  },
+  {
+    "id": "ticket_015",
+    "type": "ticket",
+    "title": "Teleconsult Link Not Received",
+    "text": "Consult link resent to registered mobile and email; patient advised to join 10 minutes before schedule."
+  },
+  {
+    "id": "ticket_016",
+    "type": "ticket",
+    "title": "Late Arrival Appointment Hold",
+    "text": "Grace period communicated as 15 minutes; patient accommodated in waiting list for next available turn."
+  },
+  {
+    "id": "ticket_017",
+    "type": "ticket",
+    "title": "No Confirmation SMS",
+    "text": "SMS gateway retry triggered; booking remained confirmed in portal despite delayed text notification."
+  },
+  {
+    "id": "ticket_018",
+    "type": "ticket",
+    "title": "Double Appointment Created",
+    "text": "Duplicate booking canceled without charge and original preferred slot kept active."
+  },
+  {
+    "id": "ticket_019",
+    "type": "ticket",
+    "title": "Portal Login for Appointment Failed",
+    "text": "Account unlocked after OTP verification and user completed appointment booking successfully."
+  },
+  {
+    "id": "ticket_020",
+    "type": "ticket",
+    "title": "Family Member Booking Help",
+    "text": "Patient added dependent profile and completed pediatric appointment through same mobile number."
+  },
+  {
+    "id": "ticket_021",
+    "type": "ticket",
+    "title": "Refund for Canceled OPD Visit",
+    "text": "Cancellation within allowed window approved for full consultation refund to original payment source."
+  },
+  {
+    "id": "ticket_022",
+    "type": "ticket",
+    "title": "Refund Against Lab Cancellation",
+    "text": "Lab test canceled before sample collection; refund initiated and reference ID shared."
+  },
+  {
+    "id": "ticket_023",
+    "type": "ticket",
+    "title": "Package Refund Pro-Rata Clarification",
+    "text": "Unused package components refunded as per package terms after deduction of consumed services."
+  },
+  {
+    "id": "ticket_024",
+    "type": "ticket",
+    "title": "Refund to Closed Bank Account",
+    "text": "Finance requested alternate account details and supporting proof to process manual NEFT refund."
+  },
+  {
+    "id": "ticket_025",
+    "type": "ticket",
+    "title": "Wallet Refund Request",
+    "text": "Refund destination cannot be changed after capture; amount credited to original source as per policy."
+  },
+  {
+    "id": "ticket_026",
+    "type": "ticket",
+    "title": "Incomplete Refund Amount",
+    "text": "Support explained deductions for consumed consultation and convenience fee under refund rules."
+  },
+  {
+    "id": "ticket_027",
+    "type": "ticket",
+    "title": "Refund Status Not Updated",
+    "text": "Status updated after nightly reconciliation batch; patient notified with transaction ARN."
+  },
+  {
+    "id": "ticket_028",
+    "type": "ticket",
+    "title": "Cash Refund Request",
+    "text": "Cash refund permitted only for cash transactions with original receipt and valid ID proof."
+  },
+  {
+    "id": "ticket_029",
+    "type": "ticket",
+    "title": "TPA Settlement Difference",
+    "text": "Billing explained final payable after insurer non-medical deductions and room rent capping."
+  },
+  {
+    "id": "ticket_030",
+    "type": "ticket",
+    "title": "Emergency Deposit Refund",
+    "text": "Unused emergency deposit moved to refund queue post discharge clearance and final bill closure."
+  },
+  {
+    "id": "ticket_031",
+    "type": "ticket",
+    "title": "Lab Report Delay CBC",
+    "text": "CBC analyzer downtime caused delay; report delivered with apology and revised timeline communication."
+  },
+  {
+    "id": "ticket_032",
+    "type": "ticket",
+    "title": "Lab Report Not Downloading",
+    "text": "Issue fixed by regenerating signed PDF; patient received report link via SMS."
+  },
+  {
+    "id": "ticket_033",
+    "type": "ticket",
+    "title": "Incorrect Age on Lab Report",
+    "text": "Demographic correction completed and amended report issued after identity validation."
+  },
+  {
+    "id": "ticket_034",
+    "type": "ticket",
+    "title": "Sample Recollection Request",
+    "text": "Sample quality insufficient; recollection scheduled at no additional cost."
+  },
+  {
+    "id": "ticket_035",
+    "type": "ticket",
+    "title": "Home Collection Missed",
+    "text": "Home collection reassigned and priority visit arranged for next available window."
+  },
+  {
+    "id": "ticket_036",
+    "type": "ticket",
+    "title": "Fasting Requirement Not Communicated",
+    "text": "Patient informed of 8 to 12 hour fasting requirement and test rescheduled."
+  },
+  {
+    "id": "ticket_037",
+    "type": "ticket",
+    "title": "Lab Value Explanation Request",
+    "text": "Support provided plain-language explanation with reminder to consult treating doctor for diagnosis."
+  },
+  {
+    "id": "ticket_038",
+    "type": "ticket",
+    "title": "Report Shared to Wrong Email",
+    "text": "Access revoked and report resent to verified email after security confirmation."
+  },
+  {
+    "id": "ticket_039",
+    "type": "ticket",
+    "title": "Critical Value Callback Missed",
+    "text": "Lab repeated callback and informed primary consultant as per critical alert protocol."
+  },
+  {
+    "id": "ticket_040",
+    "type": "ticket",
+    "title": "Reference Range Clarification",
+    "text": "Patient informed reference ranges can vary by lab method and age/sex profile."
+  },
+  {
+    "id": "ticket_041",
+    "type": "ticket",
+    "title": "Insurance Card Not Recognized",
+    "text": "Insurer code mismatch corrected by TPA desk and eligibility rechecked."
+  },
+  {
+    "id": "ticket_042",
+    "type": "ticket",
+    "title": "Policy Expired During Admission",
+    "text": "Cashless request denied due to expiry date; patient advised reimbursement route if applicable."
+  },
+  {
+    "id": "ticket_043",
+    "type": "ticket",
+    "title": "Copay Percentage Confusion",
+    "text": "Support explained policy copay terms and shared insurer statement details."
+  },
+  {
+    "id": "ticket_044",
+    "type": "ticket",
+    "title": "Room Upgrade Insurance Impact",
+    "text": "Patient informed that room-category upgrade may lead to proportionate deduction in claim."
+  },
+  {
+    "id": "ticket_045",
+    "type": "ticket",
+    "title": "Preexisting Disease Query",
+    "text": "Coverage for preexisting conditions depends on waiting period and policy terms from insurer."
+  },
+  {
+    "id": "ticket_046",
+    "type": "ticket",
+    "title": "Network Hospital Verification",
+    "text": "TPA desk confirmed network status using insurer portal and policy number."
+  },
+  {
+    "id": "ticket_047",
+    "type": "ticket",
+    "title": "Claim Document Checklist",
+    "text": "Patient provided checklist including discharge summary, itemized bill, prescriptions, and test reports."
+  },
+  {
+    "id": "ticket_048",
+    "type": "ticket",
+    "title": "Insurance Approval Delay",
+    "text": "Turnaround depends on insurer response; provisional estimate shared while waiting for approval."
+  },
+  {
+    "id": "ticket_049",
+    "type": "ticket",
+    "title": "Cashless to Reimbursement Shift",
+    "text": "When cashless is not approved, patient can proceed and later file reimbursement with insurer."
+  },
+  {
+    "id": "ticket_050",
+    "type": "ticket",
+    "title": "Maternity Coverage Exclusion",
+    "text": "Maternity coverage applied only if add-on and waiting period criteria are met."
+  },
+  {
+    "id": "ticket_051",
+    "type": "ticket",
+    "title": "Visitor Pass Lost",
+    "text": "Replacement pass issued after identity verification at reception desk."
+  },
+  {
+    "id": "ticket_052",
+    "type": "ticket",
+    "title": "After-Hours Entry Request",
+    "text": "After-hours entry requires nursing station approval and security clearance."
+  },
+  {
+    "id": "ticket_053",
+    "type": "ticket",
+    "title": "Parking Fee Dispute",
+    "text": "Parking logs checked and excess charge reversed by facilities team."
+  },
+  {
+    "id": "ticket_054",
+    "type": "ticket",
+    "title": "Wheelchair Support Delay",
+    "text": "Transport desk assigned attendant and escalated delay incident for service improvement."
+  },
+  {
+    "id": "ticket_055",
+    "type": "ticket",
+    "title": "Pharmacy Stock Out",
+    "text": "Alternative brand suggested by pharmacist and restock ETA shared."
+  },
+  {
+    "id": "ticket_056",
+    "type": "ticket",
+    "title": "Cafeteria Food Complaint",
+    "text": "Complaint logged with catering partner and replacement meal provided."
+  },
+  {
+    "id": "ticket_057",
+    "type": "ticket",
+    "title": "Housekeeping Delay",
+    "text": "Service request prioritized and resolved with supervisory follow-up."
+  },
+  {
+    "id": "ticket_058",
+    "type": "ticket",
+    "title": "AC Not Working in Room",
+    "text": "Engineering inspected unit and shifted patient to alternate room until fix."
+  },
+  {
+    "id": "ticket_059",
+    "type": "ticket",
+    "title": "Nurse Call Bell Issue",
+    "text": "Biomedical team replaced faulty bell panel and verified response workflow."
+  },
+  {
+    "id": "ticket_060",
+    "type": "ticket",
+    "title": "Discharge Summary Delay",
+    "text": "Doctor sign-off pending was expedited; summary shared before final bill settlement."
+  },
+  {
+    "id": "ticket_061",
+    "type": "ticket",
+    "title": "Portal Password Reset Failure",
+    "text": "User identity revalidated and reset link regenerated successfully."
+  },
+  {
+    "id": "ticket_062",
+    "type": "ticket",
+    "title": "OTP Not Received",
+    "text": "OTP delivery retried via alternate SMS route and voice OTP backup enabled."
+  },
+  {
+    "id": "ticket_063",
+    "type": "ticket",
+    "title": "App Crash During Payment",
+    "text": "Issue traced to outdated app version; user updated app and completed payment."
+  },
+  {
+    "id": "ticket_064",
+    "type": "ticket",
+    "title": "Wrong UHID Linked",
+    "text": "Data correction performed after verification and records linked to correct patient profile."
+  },
+  {
+    "id": "ticket_065",
+    "type": "ticket",
+    "title": "Digital Invoice Missing GST",
+    "text": "GST-compliant invoice regenerated and shared with registered email."
+  },
+  {
+    "id": "ticket_066",
+    "type": "ticket",
+    "title": "Consultation Receipt Not Found",
+    "text": "Receipt recovered from archive and attached to patient portal."
+  },
+  {
+    "id": "ticket_067",
+    "type": "ticket",
+    "title": "Wrong Mobile Number on Account",
+    "text": "Mobile number updated after OTP to old number and identity cross-check."
+  },
+  {
+    "id": "ticket_068",
+    "type": "ticket",
+    "title": "Email Update Request",
+    "text": "Email updated post verification; patient asked to re-login for sync."
+  },
+  {
+    "id": "ticket_069",
+    "type": "ticket",
+    "title": "Doctor Changed Last Minute",
+    "text": "Backup consultant assigned and patient informed before consultation start."
+  },
+  {
+    "id": "ticket_070",
+    "type": "ticket",
+    "title": "Consultation Waiting Time Long",
+    "text": "Queue delay communicated with revised ETA and option to reschedule without penalty."
+  },
+  {
+    "id": "ticket_071",
+    "type": "ticket",
+    "title": "Pediatric Slot Unavailable",
+    "text": "Patient placed on priority waitlist and notified on cancellation availability."
+  },
+  {
+    "id": "ticket_072",
+    "type": "ticket",
+    "title": "Radiology Queue Delay",
+    "text": "Scan delayed due to emergency case prioritization; new slot allocated same day."
+  },
+  {
+    "id": "ticket_073",
+    "type": "ticket",
+    "title": "CT Contrast Consent Confusion",
+    "text": "Radiology team re-explained consent process and completed scan after approval."
+  },
+  {
+    "id": "ticket_074",
+    "type": "ticket",
+    "title": "Sample Collection Billing Mismatch",
+    "text": "Home-collection charge corrected as per package inclusion and revised invoice issued."
+  },
+  {
+    "id": "ticket_075",
+    "type": "ticket",
+    "title": "Advance Deposit Not Reflected",
+    "text": "Deposit tagged to admission file after reconciliation and displayed on bill statement."
+  },
+  {
+    "id": "ticket_076",
+    "type": "ticket",
+    "title": "Missing Discharge Medications",
+    "text": "Pharmacy quickly completed discharge pack and nursing team confirmed handover."
+  },
+  {
+    "id": "ticket_077",
+    "type": "ticket",
+    "title": "Bed Transfer Request",
+    "text": "Room transfer approved subject to availability and billing category update."
+  },
+  {
+    "id": "ticket_078",
+    "type": "ticket",
+    "title": "Ambulance Booking Delay",
+    "text": "Transport team assigned nearest available ambulance and shared ETA."
+  },
+  {
+    "id": "ticket_079",
+    "type": "ticket",
+    "title": "Emergency Queue Clarification",
+    "text": "Emergency triage prioritizes clinical urgency over arrival sequence."
+  },
+  {
+    "id": "ticket_080",
+    "type": "ticket",
+    "title": "Blood Bank Availability Query",
+    "text": "Availability confirmed by blood bank desk; replacement donor policy explained."
+  },
+  {
+    "id": "ticket_081",
+    "type": "ticket",
+    "title": "Lab Add-On Test Request",
+    "text": "Add-on test allowed only if sample stability window remains valid."
+  },
+  {
+    "id": "ticket_082",
+    "type": "ticket",
+    "title": "Follow-Up Prescription Copy",
+    "text": "Digital prescription copy shared through portal after doctor verification."
+  },
+  {
+    "id": "ticket_083",
+    "type": "ticket",
+    "title": "Online Payment Link Expired",
+    "text": "New secure payment link generated and prior link invalidated for safety."
+  },
+  {
+    "id": "ticket_084",
+    "type": "ticket",
+    "title": "Noisy Ward Complaint",
+    "text": "Ward staff intervened and quiet-hours policy reinforced to attendants."
+  },
+  {
+    "id": "medical_001",
+    "type": "medical_guidance",
+    "title": "Low Hemoglobin Symptoms",
+    "text": "Low hemoglobin can be associated with fatigue, weakness, pale skin, and dizziness. Clinical diagnosis requires doctor evaluation."
+  },
+  {
+    "id": "medical_002",
+    "type": "medical_guidance",
+    "title": "Persistent Fever Guidance",
+    "text": "If fever lasts more than 3 days or worsens, consult a doctor for in-person assessment."
+  },
+  {
+    "id": "medical_003",
+    "type": "medical_guidance",
+    "title": "Chest Pain Safety",
+    "text": "Chest pain or pressure can be serious. Seek immediate emergency medical attention."
+  },
+  {
+    "id": "medical_004",
+    "type": "medical_guidance",
+    "title": "Breathing Difficulty Safety",
+    "text": "New or severe breathing difficulty requires urgent medical care."
+  },
+  {
+    "id": "medical_005",
+    "type": "medical_guidance",
+    "title": "Severe Bleeding Safety",
+    "text": "Severe bleeding is a medical emergency and needs immediate emergency response."
+  },
+  {
+    "id": "medical_006",
+    "type": "medical_guidance",
+    "title": "Mild Viral Symptoms",
+    "text": "For mild symptoms like low-grade fever and body ache, hydration and rest may help, but consult a doctor if symptoms persist."
+  },
+  {
+    "id": "medical_007",
+    "type": "medical_guidance",
+    "title": "High Blood Sugar Follow-up",
+    "text": "Elevated blood sugar values should be reviewed with a doctor for further assessment and management."
+  },
+  {
+    "id": "medical_008",
+    "type": "medical_guidance",
+    "title": "Low Blood Sugar Warning",
+    "text": "Very low blood sugar may cause sweating, shakiness, and confusion and should be addressed urgently."
+  },
+  {
+    "id": "medical_009",
+    "type": "medical_guidance",
+    "title": "Dizziness and Fatigue",
+    "text": "Persistent dizziness or unexplained fatigue should be evaluated by a qualified clinician."
+  },
+  {
+    "id": "medical_010",
+    "type": "medical_guidance",
+    "title": "Medication Safety Reminder",
+    "text": "Do not start or stop prescription medication without consulting your doctor."
+  },
+  {
+    "id": "medical_011",
+    "type": "medical_guidance",
+    "title": "Leg Pain Guidance",
+    "text": "Mild leg pain may have many causes. If pain is severe, persistent, associated with swelling, or affects walking, consult a doctor soon."
+  },
+  {
+    "id": "medical_012",
+    "type": "medical_guidance",
+    "title": "Shoulder Pain Guidance",
+    "text": "Shoulder pain can be due to strain or inflammation. If pain is severe, limits movement, follows injury, or continues for several days, consult a doctor."
+  },
+  {
+    "id": "lab_001",
+    "type": "lab_reference",
+    "title": "Hemoglobin Adult Female Range",
+    "text": "Typical adult female hemoglobin reference range is approximately 12.0 to 15.5 g/dL."
+  },
+  {
+    "id": "lab_002",
+    "type": "lab_reference",
+    "title": "Hemoglobin Adult Male Range",
+    "text": "Typical adult male hemoglobin reference range is approximately 13.5 to 17.5 g/dL."
+  },
+  {
+    "id": "lab_003",
+    "type": "lab_reference",
+    "title": "Fasting Glucose Normal",
+    "text": "Fasting blood glucose below 100 mg/dL is generally considered normal in many labs."
+  },
+  {
+    "id": "lab_004",
+    "type": "lab_reference",
+    "title": "Fasting Glucose Prediabetes",
+    "text": "Fasting blood glucose from 100 to 125 mg/dL is often considered prediabetes range."
+  },
+  {
+    "id": "lab_005",
+    "type": "lab_reference",
+    "title": "Fasting Glucose Diabetes Threshold",
+    "text": "Fasting blood glucose at or above 126 mg/dL may indicate diabetes and should be clinically confirmed."
+  },
+  {
+    "id": "lab_006",
+    "type": "lab_reference",
+    "title": "Random Glucose Alert",
+    "text": "Random blood glucose at or above 200 mg/dL with symptoms may be clinically significant and needs medical evaluation."
+  },
+  {
+    "id": "lab_007",
+    "type": "lab_reference",
+    "title": "HbA1c General Cutoffs",
+    "text": "Common HbA1c interpretation: below 5.7 percent normal, 5.7 to 6.4 percent prediabetes, 6.5 percent or above diabetes range."
+  },
+  {
+    "id": "lab_008",
+    "type": "lab_reference",
+    "title": "Reference Range Variation",
+    "text": "Lab reference ranges can differ by instrument, method, age, sex, and local lab standards."
+  }
+]
