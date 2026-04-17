@@ -55,7 +55,15 @@ class AppointmentService:
         meridiem = match.group(3).upper()
         return f"{hour}:{minute:02d} {meridiem}"
 
-    def book(self, session_id: str, patient_name: str, department: str, slot: str) -> dict:
+    def book(
+        self,
+        session_id: str,
+        patient_name: str,
+        department: str,
+        slot: str,
+        priority_label: str = "Routine",
+        priority_rank: int = 1,
+    ) -> dict:
         available = self.get_available_slots(department)
         if slot not in available:
             return {
@@ -75,6 +83,8 @@ class AppointmentService:
             "slot": slot,
             "date": self._today(),
             "created_at": datetime.now().isoformat(timespec="seconds"),
+            "priority_label": priority_label,
+            "priority_rank": priority_rank,
         }
         self._bookings.append(record)
         return {
@@ -87,6 +97,32 @@ class AppointmentService:
             "slot": slot,
             "department": department,
         }
+
+    def list_bookings(self) -> list[dict]:
+        def sort_key(record: dict) -> tuple:
+            return (
+                -int(record.get("priority_rank", 1)),
+                str(record.get("date", "")),
+                self._slot_to_minutes(str(record.get("slot", ""))),
+                str(record.get("created_at", "")),
+            )
+
+        return sorted((booking.copy() for booking in self._bookings), key=sort_key)
+
+    @staticmethod
+    def _slot_to_minutes(slot: str) -> int:
+        match = TIME_PATTERN.search(slot)
+        if not match:
+            return 9999
+
+        hour = int(match.group(1))
+        minute = int(match.group(2) or "0")
+        meridiem = match.group(3).lower()
+        if meridiem == "pm" and hour != 12:
+            hour += 12
+        if meridiem == "am" and hour == 12:
+            hour = 0
+        return (hour * 60) + minute
 
     @staticmethod
     def _today() -> str:
